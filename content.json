@@ -1,0 +1,10 @@
+{
+  "entities": [
+    "moving_block"
+  ],
+  "items": [],
+  "blocks": [
+    "extended_piston",
+    "piston"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+    "components": [
+        "neveix_piston_mod:moving_block"
+    ],
+    "skeleton-name": "base:block",
+    "hitbox": [0.98, 0.98, 0.98]
+}

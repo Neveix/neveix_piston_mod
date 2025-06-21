@@ -1,0 +1,21 @@
+{
+    "texture-faces": [
+        "extended_piston_side",
+        "extended_piston_side",
+        "piston_back",
+        "piston_face",
+        "extended_piston_side",
+        "extended_piston_side"
+    ],
+    "rotation": "pipe",
+    "material": "base:metal",
+    "size": [1, 2, 1],
+    "model": "aabb",
+    "hitbox": [0.0, 0.0, 0.0, 1.0, 2.0, 1.0],
+    "base:durability": 1.0,
+    "ambient-occlusion": false,
+    "light-passing": true,
+    "sky-light-passing": true,
+    "hidden": true,
+    "picking-item": "neveix_piston_mod:piston.item"
+}
