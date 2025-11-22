@@ -1,21 +1,37 @@
 {
-    "texture-faces": [
-        "extended_piston_side",
-        "extended_piston_side",
-        "piston_back",
-        "piston_face",
-        "extended_piston_side",
-        "extended_piston_side"
-    ],
     "rotation": "pipe",
     "material": "base:metal",
     "size": [1, 2, 1],
-    "model": "aabb",
-    "hitbox": [0.0, 0.0, 0.0, 1.0, 2.0, 1.0],
     "base:durability": 1.0,
     "ambient-occlusion": false,
     "light-passing": true,
     "sky-light-passing": true,
     "hidden": true,
-    "picking-item": "neveix_piston_mod:piston.item"
+    "picking-item": "neveix_piston_mod:piston.item",
+    "model": "custom",
+    "model-primitives": {
+        "aabbs": [
+            [0, 0, 0, 1, 0.875, 1, 
+            "piston_body_side",
+            "piston_body_side",
+            "piston_back",
+            "piston_body_face",
+            "piston_body_side",
+            "piston_body_side"],
+            [0.125, 0.875, 0.125, 0.75, 1, 0.75, 
+            "piston_rod_side",
+            "piston_rod_side",
+            "piston_face",
+            "piston_face",
+            "piston_rod_side",
+            "piston_rod_side"],
+            [0, 1.875, 0, 1, 0.125, 1, 
+            "piston_head_side",
+            "piston_head_side",
+            "piston_face",
+            "piston_face",
+            "piston_head_side",
+            "piston_head_side"]
+        ]
+    }
 }

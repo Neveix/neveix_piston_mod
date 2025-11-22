@@ -1,16 +1,20 @@
 {
-    "texture-faces": [
-        "piston_side",
-        "piston_side",
-        "piston_back",
-        "piston_face",
-        "piston_side",
-        "piston_side"
-    ],
     "rotation": "pipe",
     "material": "base:metal",
     "base:durability": 1.0,
     "ambient-occlusion": false,
     "light-passing": true,
-    "sky-light-passing": true
+    "sky-light-passing": true,
+    "model": "custom",
+    "model-primitives": {
+        "aabbs": [
+            [0, 0, 0, 1, 1, 1, 
+            "piston_side",
+            "piston_side",
+            "piston_back",
+            "piston_face",
+            "piston_side",
+            "piston_side"],
+        ]
+    }
 }
